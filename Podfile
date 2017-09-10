@@ -2,6 +2,19 @@
 # platform :ios, '9.0'
 use_frameworks!
 source 'https://github.com/pkrmf/cocoapods-private-repo.git'
+
+def statics
+    pod 'DummyFrameworkTwoStatic'
+    pod 'DummyFrameworkOneStatic'
+    pod 'DummyFrameworkThreeStatic'
+end
+
+def dynamics
+    pod 'DummyFrameworkTwoDynamic'
+    pod 'DummyFrameworkOneDynamic'
+    pod 'DummyFrameworkThreeDynamic'
+end
+
 target 'ProofOfConcept' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   
@@ -10,8 +23,6 @@ target 'ProofOfConcept' do
 end
 
 target 'Core' do
-    #pod 'DummyFrameworkTwoDynamic'
-    pod 'DummyFrameworkTwoStatic'
-    #pod 'DummyFrameworkOneDynamic'
-    pod 'DummyFrameworkOneStatic'
+    dynamics
+    #statics
 end

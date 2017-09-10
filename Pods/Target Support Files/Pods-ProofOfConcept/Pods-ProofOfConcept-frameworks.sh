@@ -102,10 +102,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/DummyFrameworkTwoStatic/iOS/DummyFrameworkTwo.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkOneDynamic/iOS/DummyFrameworkOne.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS/DummyFrameworkThree.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS/DummyFrameworkTwo.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/DummyFrameworkTwoStatic/iOS/DummyFrameworkTwo.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkOneDynamic/iOS/DummyFrameworkOne.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS/DummyFrameworkThree.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS/DummyFrameworkTwo.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

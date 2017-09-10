@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 @import DummyFrameworkOne;
+@import DummyFrameworkThree;
+@import DummyFrameworkTwo;
 
 @interface ViewController ()
 
