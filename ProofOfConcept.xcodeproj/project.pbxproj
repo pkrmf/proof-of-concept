@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		1220BBFAD78D45DFDD722688 /* Pods_ProofOfConcept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProofOfConcept.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2498DC2B2FDB0F61B9F723 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		4E710C7D1F65DAC100E448EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4EA8FD6E1F6495FE003279ED /* ProofOfConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProofOfConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA8FD721F6495FE003279ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EA8FD741F6495FE003279ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		4EA8FD651F6495FE003279ED = {
 			isa = PBXGroup;
 			children = (
+				4E710C7D1F65DAC100E448EE /* README.md */,
 				4EA8FD701F6495FE003279ED /* ProofOfConcept */,
 				4ECB6A2A1F64ADD70082BAD0 /* Core */,
 				4EA8FD6F1F6495FE003279ED /* Products */,
@@ -317,13 +319,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProofOfConcept/Pods-ProofOfConcept-frameworks.sh",
-				"${PODS_ROOT}/DummyFrameworkOneDynamic/iOS/DummyFrameworkOne.framework",
-				"${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS/DummyFrameworkThree.framework",
-				"${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS/DummyFrameworkTwo.framework",
+				"${PODS_ROOT}/DummyFrameworkFourStatic/iOS/DummyFrameworkFour.framework",
+				"${PODS_ROOT}/DummyFrameworkThreeStatic/iOS/DummyFrameworkThree.framework",
+				"${PODS_ROOT}/DummyFrameworkTwoStatic/iOS/DummyFrameworkTwo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkOne.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkFour.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkThree.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkTwo.framework",
 			);

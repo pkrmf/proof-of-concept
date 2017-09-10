@@ -7,12 +7,14 @@ def statics
     pod 'DummyFrameworkTwoStatic'
     pod 'DummyFrameworkOneStatic'
     pod 'DummyFrameworkThreeStatic'
+    pod 'DummyFrameworkFourStatic'
 end
 
 def dynamics
     pod 'DummyFrameworkTwoDynamic'
     pod 'DummyFrameworkOneDynamic'
     pod 'DummyFrameworkThreeDynamic'
+    pod 'DummyFrameworkFourDynamic'
 end
 
 target 'ProofOfConcept' do
@@ -23,6 +25,6 @@ target 'ProofOfConcept' do
 end
 
 target 'Core' do
-    dynamics
-    #statics
+    #dynamics
+    statics
 end
