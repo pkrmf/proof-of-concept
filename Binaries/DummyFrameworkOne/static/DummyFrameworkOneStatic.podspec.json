@@ -1,0 +1,35 @@
+{
+  "name": "DummyFrameworkOneStatic",
+  "version": "1.0.0",
+  "summary": "iOS framework to proof a concept",
+  "description": "Meant to be used to proof faster dylib image loading when using static libraries",
+  "homepage": "https://github.com/pkrmf/proof-of-concept",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Marc Terns": "mterns@gmail.com"
+  },
+  "source": {
+    "http": "file:///Users/marcterns/iOS/DummyFrameworkOne/static/DummyFrameworkOne.framework.tar.gz"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "public_header_files": "iOS/DummyFrameworkOne.framework/Headers/*.h",
+    "source_files": "iOS/DummyFrameworkOne.framework/Headers/*.h",
+    "vendored_frameworks": "iOS/DummyFrameworkOne.framework"
+  },
+  "preserve_paths": [
+    "iOS/*",
+    "tvOS/*",
+    "dsym_upload.sh"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "CoreData",
+    "SystemConfiguration"
+  ]
+}
