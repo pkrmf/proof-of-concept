@@ -1,0 +1,35 @@
+{
+  "name": "DummyFrameworkThreeStatic",
+  "version": "1.0.0",
+  "summary": "iOS framework to proof a concept",
+  "description": "Meant to be used to proof faster dylib image loading when using static libraries",
+  "homepage": "https://github.com/pkrmf/proof-of-concept",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Marc Terns": "mterns@gmail.com"
+  },
+  "source": {
+    "http": "https://github.com/pkrmf/proof-of-concept/raw/master/Binaries/DummyFrameworkThree/dynamic/DummyFrameworkThree.framework.tar.gz"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "public_header_files": "iOS/DummyFrameworkThree.framework/Headers/*.h",
+    "source_files": "iOS/DummyFrameworkThree.framework/Headers/*.h",
+    "vendored_frameworks": "iOS/DummyFrameworkThree.framework"
+  },
+  "preserve_paths": [
+    "iOS/*",
+    "tvOS/*",
+    "dsym_upload.sh"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "CoreData",
+    "SystemConfiguration"
+  ]
+}

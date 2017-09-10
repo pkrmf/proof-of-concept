@@ -1,8 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DummyFrameworkOneStatic/iOS"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DummyFrameworkOneStatic/iOS" "${PODS_ROOT}/DummyFrameworkTwoStatic/iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DummyFrameworkOneStatic"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DummyFrameworkOneStatic"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "CoreData" -framework "DummyFrameworkOne" -framework "Foundation" -framework "SystemConfiguration"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DummyFrameworkOneStatic" "${PODS_ROOT}/Headers/Public/DummyFrameworkTwoStatic"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DummyFrameworkOneStatic" -isystem "${PODS_ROOT}/Headers/Public/DummyFrameworkTwoStatic"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "CoreData" -framework "DummyFrameworkOne" -framework "DummyFrameworkTwo" -framework "Foundation" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

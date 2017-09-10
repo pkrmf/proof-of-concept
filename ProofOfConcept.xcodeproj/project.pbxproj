@@ -16,8 +16,8 @@
 		4ECB6A2D1F64ADD70082BAD0 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECB6A2B1F64ADD70082BAD0 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ECB6A301F64ADD70082BAD0 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECB6A291F64ADD60082BAD0 /* Core.framework */; };
 		4ECB6A311F64ADD70082BAD0 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECB6A291F64ADD60082BAD0 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		770E40764DD87F31574C2127 /* libPods-ProofOfConcept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43168DBCA3B9FBE390E83F31 /* libPods-ProofOfConcept.a */; };
-		F2E66614E3DDD17E2553A4B3 /* libPods-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DEB398E2EF9A8FFD279782 /* libPods-Core.a */; };
+		D0F29A078AC9551E458C846F /* Pods_ProofOfConcept.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1220BBFAD78D45DFDD722688 /* Pods_ProofOfConcept.framework */; };
+		D516574F3C3F463FF9B9E28E /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD00BA09E92252A56C3A672 /* Pods_Core.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27DEB398E2EF9A8FFD279782 /* libPods-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1220BBFAD78D45DFDD722688 /* Pods_ProofOfConcept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProofOfConcept.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2498DC2B2FDB0F61B9F723 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
-		43168DBCA3B9FBE390E83F31 /* libPods-ProofOfConcept.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProofOfConcept.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA8FD6E1F6495FE003279ED /* ProofOfConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProofOfConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA8FD721F6495FE003279ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EA8FD741F6495FE003279ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		4ECB6A2B1F64ADD70082BAD0 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		4ECB6A2C1F64ADD70082BAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E24F687931DE6D917B7EEAB /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD00BA09E92252A56C3A672 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3562541116B5EA8758E777 /* Pods-ProofOfConcept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProofOfConcept.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProofOfConcept/Pods-ProofOfConcept.debug.xcconfig"; sourceTree = "<group>"; };
 		A96F3EB05814886A123D3CC2 /* Pods-ProofOfConcept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProofOfConcept.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProofOfConcept/Pods-ProofOfConcept.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770E40764DD87F31574C2127 /* libPods-ProofOfConcept.a in Frameworks */,
 				4ECB6A301F64ADD70082BAD0 /* Core.framework in Frameworks */,
+				D0F29A078AC9551E458C846F /* Pods_ProofOfConcept.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E66614E3DDD17E2553A4B3 /* libPods-Core.a in Frameworks */,
+				D516574F3C3F463FF9B9E28E /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +143,8 @@
 		E59ABF70CD9FB16538D6780E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43168DBCA3B9FBE390E83F31 /* libPods-ProofOfConcept.a */,
-				27DEB398E2EF9A8FFD279782 /* libPods-Core.a */,
+				7CD00BA09E92252A56C3A672 /* Pods_Core.framework */,
+				1220BBFAD78D45DFDD722688 /* Pods_ProofOfConcept.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -317,11 +317,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProofOfConcept/Pods-ProofOfConcept-frameworks.sh",
-				"${PODS_ROOT}/DummyFrameworkOneDynamic/iOS/DummyFrameworkOne.framework",
+				"${PODS_ROOT}/DummyFrameworkTwoStatic/iOS/DummyFrameworkTwo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkOne.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkTwo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
