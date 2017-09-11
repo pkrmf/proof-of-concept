@@ -29,28 +29,28 @@ This repository contains a Podfile that points to the static and dynamic librari
 Here are the pre-main loading times of __5 static/dynamic libraries__ using an Iphone 7Plus.
 #### Dynamic
 ```
-Total pre-main time: 230.88 milliseconds (100.0%)
-dylib loading time: 213.09 milliseconds (92.2%)
-rebase/binding time:   6.63 milliseconds (2.8%)
-ObjC setup time:   3.58 milliseconds (1.5%)
-initializer time:   7.52 milliseconds (3.2%)
+Total pre-main time: 279.60 milliseconds (100.0%)
+dylib loading time: 260.86 milliseconds (93.2%)
+rebase/binding time:   2.64 milliseconds (0.9%)
+ObjC setup time:   6.67 milliseconds (2.3%)
+initializer time:   9.34 milliseconds (3.3%)
 slowest intializers :
-libSystem.B.dylib :   3.54 milliseconds (1.5%)
+libSystem.B.dylib :   2.76 milliseconds (0.9%)
 ```
 #### Static
 ```
-static
-Total pre-main time: 186.19 milliseconds (100.0%)
-dylib loading time: 166.69 milliseconds (89.5%)
-rebase/binding time:   3.14 milliseconds (1.6%)
-ObjC setup time:   6.91 milliseconds (3.7%)
-initializer time:   9.38 milliseconds (5.0%)
+Total pre-main time:  57.18 milliseconds (100.0%)
+dylib loading time:  34.93 milliseconds (61.0%)
+rebase/binding time:   3.68 milliseconds (6.4%)
+ObjC setup time:   9.34 milliseconds (16.3%)
+initializer time:   9.16 milliseconds (16.0%)
 slowest intializers :
-libSystem.B.dylib :   2.71 milliseconds (1.4%)
-libBacktraceRecording.dylib :   5.10 milliseconds (2.7%)
+libSystem.B.dylib :   2.51 milliseconds (4.3%)
+libBacktraceRecording.dylib :   5.05 milliseconds (8.8%)
 ```
-That is almost a __25%__ difference with only 5 dependencies.
+Loading the app with the 6 static Libraries + the Core is almost __5 times__ faster to load than the app with 6 dynamic libraries + the Core.
 The more Frameworks we add, the higher the difference will be.
-__NOTE:__ It is important to clean the workspace and remove the proof of concept application to gather the data.
+
+__NOTE:__ It is important to clean the workspace and gather the metrics of launch with a real device on the first launch.
 
 

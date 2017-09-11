@@ -29,6 +29,6 @@ target 'ProofOfConcept' do
 end
 
 target 'Core' do
-    #dynamics
-    statics
+    dynamics
+    #statics
 end

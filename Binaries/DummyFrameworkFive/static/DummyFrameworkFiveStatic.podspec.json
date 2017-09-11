@@ -11,7 +11,7 @@
     "Marc Terns": "mterns@gmail.com"
   },
   "source": {
-    "http": "https://github.com/pkrmf/proof-of-concept/raw/master/Binaries/DummyFrameworkFive/dynamic/DummyFrameworkFive.framework.tar.gz"
+    "http": "https://github.com/pkrmf/proof-of-concept/raw/master/Binaries/DummyFrameworkFive/static/DummyFrameworkFive.framework.tar.gz"
   },
   "platforms": {
     "ios": "10.0"
