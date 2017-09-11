@@ -1,0 +1,6 @@
+framework module DummyFrameworkSix {
+  umbrella header "DummyFrameworkSix.h"
+
+  export *
+  module * { export * }
+}

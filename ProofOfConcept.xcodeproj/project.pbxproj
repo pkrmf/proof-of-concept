@@ -321,6 +321,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProofOfConcept/Pods-ProofOfConcept-frameworks.sh",
 				"${PODS_ROOT}/DummyFrameworkFiveStatic/iOS/DummyFrameworkFive.framework",
 				"${PODS_ROOT}/DummyFrameworkFourStatic/iOS/DummyFrameworkFour.framework",
+				"${PODS_ROOT}/DummyFrameworkSixStatic/iOS/DummyFrameworkSix.framework",
 				"${PODS_ROOT}/DummyFrameworkThreeStatic/iOS/DummyFrameworkThree.framework",
 				"${PODS_ROOT}/DummyFrameworkTwoStatic/iOS/DummyFrameworkTwo.framework",
 			);
@@ -328,6 +329,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkFive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkFour.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkSix.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkThree.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DummyFrameworkTwo.framework",
 			);

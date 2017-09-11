@@ -2,6 +2,7 @@ PODS:
   - DummyFrameworkFiveStatic (1.0.0)
   - DummyFrameworkFourStatic (1.0.0)
   - DummyFrameworkOneStatic (1.0.0)
+  - DummyFrameworkSixStatic (1.0.0)
   - DummyFrameworkThreeStatic (1.0.0)
   - DummyFrameworkTwoStatic (1.0.0)
 
@@ -9,6 +10,7 @@ DEPENDENCIES:
   - DummyFrameworkFiveStatic
   - DummyFrameworkFourStatic
   - DummyFrameworkOneStatic
+  - DummyFrameworkSixStatic
   - DummyFrameworkThreeStatic
   - DummyFrameworkTwoStatic
 
@@ -16,9 +18,10 @@ SPEC CHECKSUMS:
   DummyFrameworkFiveStatic: 00efd4d19926683ce9b41846a85dbc32783adb78
   DummyFrameworkFourStatic: fa4206e0cc47647344b7f96f1eae8b9aefb5717d
   DummyFrameworkOneStatic: 97e7409d70ee30f3562427248b1d50ca47aee5fc
+  DummyFrameworkSixStatic: ca86c05d9a1f0c4d6c9748ba417e66f658e9fe8d
   DummyFrameworkThreeStatic: 57bfddd16dd70ed2b90396ab7380da067129865d
   DummyFrameworkTwoStatic: bc6da34c65be368342214b80244a9d1850cc892d
 
-PODFILE CHECKSUM: 1ce1ffc29ecd18caafc28f084065c2b9aa5a4da4
+PODFILE CHECKSUM: 0eb974a8ffb86dce3b6787c4b98fff6c07506ca8
 
 COCOAPODS: 1.3.1
