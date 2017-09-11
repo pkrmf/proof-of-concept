@@ -26,34 +26,31 @@ The solution to the problem was __simple__ and required version upgrades on each
 This is an application that proves static libraries load faster than dynamic libraries on iOS. We will post pre-main loading times, showing how much faster is to load the same static libraries through the core dynamic library instead of loading them as dynamic libraries. In order to pull the times we used the __environment variable__ `DYLD_PRINT_STATISTICS`. The consuming static and dynamic libraries are built with a script that generates classes with code and different prefixes. 
 This repository contains a Podfile that points to the static and dynamic libraries which are part of this repository. The libraries are distributed as binaries, half of them static, the other half dynamic. Once the Application is installed and executed, the pre-main loading times will be printed in the console.
 
-Here are the pre-main loading times of __4 static/dynamic libraries__ using an Iphone 7Plus.
+Here are the pre-main loading times of __5 static/dynamic libraries__ using an Iphone 7Plus.
 #### Dynamic
 ```
-Total pre-main time: 209.56 milliseconds (100.0%)
-dylib loading time: 182.89 milliseconds (87.2%)
-rebase/binding time:   8.74 milliseconds (4.1%)
-ObjC setup time:   5.82 milliseconds (2.7%)
-initializer time:  12.04 milliseconds (5.7%)
+Total pre-main time: 230.88 milliseconds (100.0%)
+dylib loading time: 213.09 milliseconds (92.2%)
+rebase/binding time:   6.63 milliseconds (2.8%)
+ObjC setup time:   3.58 milliseconds (1.5%)
+initializer time:   7.52 milliseconds (3.2%)
 slowest intializers :
-libSystem.B.dylib :   5.30 milliseconds (2.5%)
-libBacktraceRecording.dylib :   5.14 milliseconds (2.4%)
-
-2017-09-10 15:38:36.936904-0500 ProofOfConcept[907:200264] I am printing
+libSystem.B.dylib :   3.54 milliseconds (1.5%)
 ```
 #### Static
 ```
-Total pre-main time: 172.02 milliseconds (100.0%)
-dylib loading time: 152.20 milliseconds (88.4%)
-rebase/binding time:   4.12 milliseconds (2.3%)
-ObjC setup time:   6.06 milliseconds (3.5%)
-initializer time:   9.55 milliseconds (5.5%)
+static
+Total pre-main time: 186.19 milliseconds (100.0%)
+dylib loading time: 166.69 milliseconds (89.5%)
+rebase/binding time:   3.14 milliseconds (1.6%)
+ObjC setup time:   6.91 milliseconds (3.7%)
+initializer time:   9.38 milliseconds (5.0%)
 slowest intializers :
-libSystem.B.dylib :   2.80 milliseconds (1.6%)
-libBacktraceRecording.dylib :   5.15 milliseconds (2.9%)
-
-2017-09-10 15:39:19.504803-0500 ProofOfConcept[909:201448] I am printing
+libSystem.B.dylib :   2.71 milliseconds (1.4%)
+libBacktraceRecording.dylib :   5.10 milliseconds (2.7%)
 ```
-
+That is almost a __25%__ difference with only 5 dependencies.
+The more Frameworks we add, the higher the difference will be.
 __NOTE:__ It is important to clean the workspace and remove the proof of concept application to gather the data.
 
 

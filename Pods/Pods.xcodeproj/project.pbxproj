@@ -16,41 +16,44 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00A0922320DD503FF4EA3FCA1737624D /* DummyFrameworkFour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkFour.framework; path = iOS/DummyFrameworkFour.framework; sourceTree = "<group>"; };
 		01275E7182236C44B8C3DCA3825D7B12 /* Pods-Core-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Core-acknowledgements.plist"; sourceTree = "<group>"; };
-		04E56ACBCD7A0B2C571C79BB5506F0DD /* DummyFrameworkOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkOne.h; path = iOS/DummyFrameworkOne.framework/Headers/DummyFrameworkOne.h; sourceTree = "<group>"; };
-		0EDB7A2703FCD5EAF355F5E2BD0A742F /* DummyFrameworkOne.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkOne.framework; path = iOS/DummyFrameworkOne.framework; sourceTree = "<group>"; };
-		1447E330EFE9670311D16BB8A2821581 /* DummyFrameworkThreeProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkThreeProtocols.h; path = iOS/DummyFrameworkThree.framework/Headers/DummyFrameworkThreeProtocols.h; sourceTree = "<group>"; };
+		08E97B9CC5102E878510790C3DAEF1B7 /* DummyFrameworkFive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkFive.h; path = iOS/DummyFrameworkFive.framework/Headers/DummyFrameworkFive.h; sourceTree = "<group>"; };
+		0CF95E1AFDBFCF18E1786FEF0E3A56BB /* DummyFrameworkFour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkFour.h; path = iOS/DummyFrameworkFour.framework/Headers/DummyFrameworkFour.h; sourceTree = "<group>"; };
 		169D1B54685BD9279B9652527C60AEF9 /* Pods-ProofOfConcept.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProofOfConcept.modulemap"; sourceTree = "<group>"; };
 		1FA4C1A31940AA7FF7234518C4E57EA8 /* Pods-Core-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Core-resources.sh"; sourceTree = "<group>"; };
 		265980F57FC5F84663C4003AF7D872FC /* Pods-ProofOfConcept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProofOfConcept.release.xcconfig"; sourceTree = "<group>"; };
-		2BB753A0C33CF87BD28342B7016DF895 /* DONESample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DONESample.h; path = iOS/DummyFrameworkOne.framework/Headers/DONESample.h; sourceTree = "<group>"; };
+		269FE871B7266CCA92B4A78B3E4A71FB /* DummyFrameworkFourProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkFourProtocols.h; path = iOS/DummyFrameworkFour.framework/Headers/DummyFrameworkFourProtocols.h; sourceTree = "<group>"; };
+		26C0CD00644B1FFEA6448E1A1B4CF6BE /* DummyFrameworkFiveProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkFiveProtocols.h; path = iOS/DummyFrameworkFive.framework/Headers/DummyFrameworkFiveProtocols.h; sourceTree = "<group>"; };
+		28AF596E1E37A98706AB6CA13AECAA8E /* DummyFrameworkThree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkThree.h; path = iOS/DummyFrameworkThree.framework/Headers/DummyFrameworkThree.h; sourceTree = "<group>"; };
 		2CF8EFF8F285B6A8A1092CE4276A2B3C /* Pods-ProofOfConcept-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProofOfConcept-acknowledgements.plist"; sourceTree = "<group>"; };
 		2E9D27EFBE86A79886BDE65CCA34AED6 /* Pods-ProofOfConcept-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProofOfConcept-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33748DEA6BD119BC9FF59BAEA4E8F369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37CA88B8061CAE12493B9BDB3B25AB46 /* DTWOSample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTWOSample.h; path = iOS/DummyFrameworkTwo.framework/Headers/DTWOSample.h; sourceTree = "<group>"; };
-		3DA99B085D8BC46945F3C4C054C70A8C /* DummyFrameworkTwo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkTwo.h; path = iOS/DummyFrameworkTwo.framework/Headers/DummyFrameworkTwo.h; sourceTree = "<group>"; };
+		39778918AC3A857F9DFA43E38682D14C /* DummyFrameworkTwo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkTwo.framework; path = iOS/DummyFrameworkTwo.framework; sourceTree = "<group>"; };
 		438E2201430BDDB2EB2C5DE326DDB69B /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		451A05E9CB8E89D1E7519C8EBA1DCF31 /* Pods-ProofOfConcept-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProofOfConcept-dummy.m"; sourceTree = "<group>"; };
 		466F7C07E187342CAD6F49EE5D6F9E8B /* Pods-ProofOfConcept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProofOfConcept.debug.xcconfig"; sourceTree = "<group>"; };
 		47F9DDB47BCC3BDC1F591740C27F0420 /* Pods-Core-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Core-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5409C89BC06CC2CF21463367A90D6340 /* DummyFrameworkThree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkThree.h; path = iOS/DummyFrameworkThree.framework/Headers/DummyFrameworkThree.h; sourceTree = "<group>"; };
+		6595CF41402520DD7EACFFA71306C7EB /* DummyFrameworkThreeProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkThreeProtocols.h; path = iOS/DummyFrameworkThree.framework/Headers/DummyFrameworkThreeProtocols.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66E73C06B9B8FDDF0E803C22154C7F51 /* DummyFrameworkTwo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkTwo.framework; path = iOS/DummyFrameworkTwo.framework; sourceTree = "<group>"; };
 		7E15B6AD9A7C390AB42D8A18229B2A11 /* Pods-ProofOfConcept-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProofOfConcept-resources.sh"; sourceTree = "<group>"; };
+		864A4DEA59480B0D90B2BA24954816A6 /* DummyFrameworkOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkOne.h; path = iOS/DummyFrameworkOne.framework/Headers/DummyFrameworkOne.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977C6905308D67A182E4642D8F89989B /* DummyFrameworkOne.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkOne.framework; path = iOS/DummyFrameworkOne.framework; sourceTree = "<group>"; };
 		9BC3FAC605B8ABC11B728F3290E5AEAF /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 		9C2596FD20034939102596AFC1BED9C6 /* Pods_ProofOfConcept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProofOfConcept.framework; path = "Pods-ProofOfConcept.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FAD0DBA3A421D169BB19EB3AA31DC8 /* DTWOSample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTWOSample.h; path = iOS/DummyFrameworkTwo.framework/Headers/DTWOSample.h; sourceTree = "<group>"; };
 		ADDBD13F44DF0E97A8883B11B563FFC0 /* Pods-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Core-dummy.m"; sourceTree = "<group>"; };
 		B72FF92C98138D8E2009DCC17BE08B84 /* Pods-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Core-umbrella.h"; sourceTree = "<group>"; };
-		BDACFA2F063B2759DF0F7E03BE4ECC4D /* DummyFrameworkThree.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkThree.framework; path = iOS/DummyFrameworkThree.framework; sourceTree = "<group>"; };
 		BE0D631054B1266D085C2525C42B579A /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Core.framework; path = "Pods-Core.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F3282CB615BEA433BF6ED44CC05527 /* Pods-ProofOfConcept-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProofOfConcept-frameworks.sh"; sourceTree = "<group>"; };
+		C48EA8ED4B906CAF57804F5A91ABBCFA /* DummyFrameworkFour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkFour.framework; path = iOS/DummyFrameworkFour.framework; sourceTree = "<group>"; };
 		D2287310E3656693F65CD181D3E17903 /* Pods-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Core.modulemap"; sourceTree = "<group>"; };
+		E26EF5762A8BC0765EA2F40E72597095 /* DummyFrameworkThree.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkThree.framework; path = iOS/DummyFrameworkThree.framework; sourceTree = "<group>"; };
 		E2BC924344C14E7865F8E641BF7E1FE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E74F91F1D0339AE00ACA84636FB73040 /* DummyFrameworkFourProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkFourProtocols.h; path = iOS/DummyFrameworkFour.framework/Headers/DummyFrameworkFourProtocols.h; sourceTree = "<group>"; };
 		E9844B9E751E2ED373869785B187D50C /* Pods-ProofOfConcept-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProofOfConcept-umbrella.h"; sourceTree = "<group>"; };
-		F7F55AE06982DE4B3483FB1E4660EC92 /* DummyFrameworkFour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkFour.h; path = iOS/DummyFrameworkFour.framework/Headers/DummyFrameworkFour.h; sourceTree = "<group>"; };
+		EAE8D47946FD26BD28B528A2EFD4B10E /* DONESample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DONESample.h; path = iOS/DummyFrameworkOne.framework/Headers/DONESample.h; sourceTree = "<group>"; };
+		FBFFAB2498BC0F04D2D24E9E68B59EA9 /* DummyFrameworkTwo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DummyFrameworkTwo.h; path = iOS/DummyFrameworkTwo.framework/Headers/DummyFrameworkTwo.h; sourceTree = "<group>"; };
+		FDDE5BF60B80FDE6B8713BB6B3567B75 /* DummyFrameworkFive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DummyFrameworkFive.framework; path = iOS/DummyFrameworkFive.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0338C3C99CBB577156F1724B381870CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE398AC2C75973AEBBCA20699F981A39 /* DummyFrameworkFiveStatic */,
+				2F7030D9B0E094E0D4BAF1B99FB1E5C5 /* DummyFrameworkFourStatic */,
+				8BDE6F8011B7704E9D68D13532E4CE73 /* DummyFrameworkOneStatic */,
+				79DD83A4D3136A599FC5E8C44A2728C2 /* DummyFrameworkThreeStatic */,
+				06106BFE29CD690B80E5FB5F2BD5E937 /* DummyFrameworkTwoStatic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		06106BFE29CD690B80E5FB5F2BD5E937 /* DummyFrameworkTwoStatic */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAD0DBA3A421D169BB19EB3AA31DC8 /* DTWOSample.h */,
+				FBFFAB2498BC0F04D2D24E9E68B59EA9 /* DummyFrameworkTwo.h */,
+				B4866F4633209E490AFB2AA91C19E54A /* Frameworks */,
+			);
+			name = DummyFrameworkTwoStatic;
+			path = DummyFrameworkTwoStatic;
+			sourceTree = "<group>";
+		};
 		06A36D86261946ABA3617D10477565DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,17 +126,6 @@
 			path = "Target Support Files/Pods-ProofOfConcept";
 			sourceTree = "<group>";
 		};
-		2289BB47A063385F49315D49F3938627 /* DummyFrameworkOneStatic */ = {
-			isa = PBXGroup;
-			children = (
-				2BB753A0C33CF87BD28342B7016DF895 /* DONESample.h */,
-				04E56ACBCD7A0B2C571C79BB5506F0DD /* DummyFrameworkOne.h */,
-				C71882E6EDAF410616D67F820E35874D /* Frameworks */,
-			);
-			name = DummyFrameworkOneStatic;
-			path = DummyFrameworkOneStatic;
-			sourceTree = "<group>";
-		};
 		2D2434983B23675D45A227D8EE95E374 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,34 +135,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		48F7EFD5877464DC1C484BEB7BDBEDA0 /* Frameworks */ = {
+		2E20665B79B5295288F238540CB9FF25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				66E73C06B9B8FDDF0E803C22154C7F51 /* DummyFrameworkTwo.framework */,
+				E26EF5762A8BC0765EA2F40E72597095 /* DummyFrameworkThree.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F97725C282784DA3B76BD4C6BD77004 /* DummyFrameworkTwoStatic */ = {
+		2F7030D9B0E094E0D4BAF1B99FB1E5C5 /* DummyFrameworkFourStatic */ = {
 			isa = PBXGroup;
 			children = (
-				37CA88B8061CAE12493B9BDB3B25AB46 /* DTWOSample.h */,
-				3DA99B085D8BC46945F3C4C054C70A8C /* DummyFrameworkTwo.h */,
-				48F7EFD5877464DC1C484BEB7BDBEDA0 /* Frameworks */,
+				0CF95E1AFDBFCF18E1786FEF0E3A56BB /* DummyFrameworkFour.h */,
+				269FE871B7266CCA92B4A78B3E4A71FB /* DummyFrameworkFourProtocols.h */,
+				F9271FBABFDBBA5356BB71B4C4AFF24E /* Frameworks */,
 			);
-			name = DummyFrameworkTwoStatic;
-			path = DummyFrameworkTwoStatic;
+			name = DummyFrameworkFourStatic;
+			path = DummyFrameworkFourStatic;
 			sourceTree = "<group>";
 		};
-		7D67ED0BB1BA4CAD332AA09BB3507289 /* Pods */ = {
+		5A65161D887E6A196B974CF56F8B5618 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				899E0B4856D0E065575E02BC89305B10 /* DummyFrameworkFourStatic */,
-				2289BB47A063385F49315D49F3938627 /* DummyFrameworkOneStatic */,
-				F2359CAC21913638C21D4FDBE1824952 /* DummyFrameworkThreeStatic */,
-				5F97725C282784DA3B76BD4C6BD77004 /* DummyFrameworkTwoStatic */,
+				FDDE5BF60B80FDE6B8713BB6B3567B75 /* DummyFrameworkFive.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79DD83A4D3136A599FC5E8C44A2728C2 /* DummyFrameworkThreeStatic */ = {
+			isa = PBXGroup;
+			children = (
+				28AF596E1E37A98706AB6CA13AECAA8E /* DummyFrameworkThree.h */,
+				6595CF41402520DD7EACFFA71306C7EB /* DummyFrameworkThreeProtocols.h */,
+				2E20665B79B5295288F238540CB9FF25 /* Frameworks */,
+			);
+			name = DummyFrameworkThreeStatic;
+			path = DummyFrameworkThreeStatic;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -155,27 +178,27 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7D67ED0BB1BA4CAD332AA09BB3507289 /* Pods */,
+				0338C3C99CBB577156F1724B381870CA /* Pods */,
 				06A36D86261946ABA3617D10477565DF /* Products */,
 				2D2434983B23675D45A227D8EE95E374 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		899E0B4856D0E065575E02BC89305B10 /* DummyFrameworkFourStatic */ = {
+		8BDE6F8011B7704E9D68D13532E4CE73 /* DummyFrameworkOneStatic */ = {
 			isa = PBXGroup;
 			children = (
-				F7F55AE06982DE4B3483FB1E4660EC92 /* DummyFrameworkFour.h */,
-				E74F91F1D0339AE00ACA84636FB73040 /* DummyFrameworkFourProtocols.h */,
-				A460F59FD1E9E044C2B18C4B632E3FEC /* Frameworks */,
+				EAE8D47946FD26BD28B528A2EFD4B10E /* DONESample.h */,
+				864A4DEA59480B0D90B2BA24954816A6 /* DummyFrameworkOne.h */,
+				D906B00A2C6B97D30B0FD561E60904FB /* Frameworks */,
 			);
-			name = DummyFrameworkFourStatic;
-			path = DummyFrameworkFourStatic;
+			name = DummyFrameworkOneStatic;
+			path = DummyFrameworkOneStatic;
 			sourceTree = "<group>";
 		};
-		A460F59FD1E9E044C2B18C4B632E3FEC /* Frameworks */ = {
+		B4866F4633209E490AFB2AA91C19E54A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00A0922320DD503FF4EA3FCA1737624D /* DummyFrameworkFour.framework */,
+				39778918AC3A857F9DFA43E38682D14C /* DummyFrameworkTwo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,14 +228,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C71882E6EDAF410616D67F820E35874D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0EDB7A2703FCD5EAF355F5E2BD0A742F /* DummyFrameworkOne.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,23 +236,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E642C97BEE22871CC4157D9D09731476 /* Frameworks */ = {
+		D906B00A2C6B97D30B0FD561E60904FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BDACFA2F063B2759DF0F7E03BE4ECC4D /* DummyFrameworkThree.framework */,
+				977C6905308D67A182E4642D8F89989B /* DummyFrameworkOne.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F2359CAC21913638C21D4FDBE1824952 /* DummyFrameworkThreeStatic */ = {
+		EE398AC2C75973AEBBCA20699F981A39 /* DummyFrameworkFiveStatic */ = {
 			isa = PBXGroup;
 			children = (
-				5409C89BC06CC2CF21463367A90D6340 /* DummyFrameworkThree.h */,
-				1447E330EFE9670311D16BB8A2821581 /* DummyFrameworkThreeProtocols.h */,
-				E642C97BEE22871CC4157D9D09731476 /* Frameworks */,
+				08E97B9CC5102E878510790C3DAEF1B7 /* DummyFrameworkFive.h */,
+				26C0CD00644B1FFEA6448E1A1B4CF6BE /* DummyFrameworkFiveProtocols.h */,
+				5A65161D887E6A196B974CF56F8B5618 /* Frameworks */,
 			);
-			name = DummyFrameworkThreeStatic;
-			path = DummyFrameworkThreeStatic;
+			name = DummyFrameworkFiveStatic;
+			path = DummyFrameworkFiveStatic;
+			sourceTree = "<group>";
+		};
+		F9271FBABFDBBA5356BB71B4C4AFF24E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48EA8ED4B906CAF57804F5A91ABBCFA /* DummyFrameworkFour.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
