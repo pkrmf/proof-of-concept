@@ -10,6 +10,8 @@
 @import DummyFrameworkOne;
 @import DummyFrameworkThree;
 @import DummyFrameworkTwo;
+@import DummyFrameworkFour;
+@import DummyFrameworkFive;
 
 @interface ViewController ()
 

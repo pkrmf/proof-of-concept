@@ -1,6 +1,0 @@
-framework module DummyFrameworkFive {
-  umbrella header "DummyFrameworkFive.h"
-
-  export *
-  module * { export * }
-}
