@@ -22,7 +22,7 @@ end
 target 'ProofOfConcept' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   
-
+  # ProofOfConcept is consuming the core manually linking the binary from the project settings
   # Pods for ProofOfConcept
 end
 
