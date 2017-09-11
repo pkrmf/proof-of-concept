@@ -1,0 +1,6 @@
+framework module DummyFrameworkTwo {
+  umbrella header "DummyFrameworkTwo.h"
+
+  export *
+  module * { export * }
+}
