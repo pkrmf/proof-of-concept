@@ -1,27 +1,27 @@
 PODS:
-  - DummyFrameworkFiveDynamic (1.0.0)
-  - DummyFrameworkFourDynamic (1.0.0)
-  - DummyFrameworkOneDynamic (1.0.0)
-  - DummyFrameworkSixDynamic (1.0.0)
-  - DummyFrameworkThreeDynamic (1.0.0)
-  - DummyFrameworkTwoDynamic (1.0.0)
+  - DummyFrameworkFiveStatic (1.0.0)
+  - DummyFrameworkFourStatic (1.0.0)
+  - DummyFrameworkOneStatic (1.0.0)
+  - DummyFrameworkSixStatic (1.0.0)
+  - DummyFrameworkThreeStatic (1.0.0)
+  - DummyFrameworkTwoStatic (1.0.0)
 
 DEPENDENCIES:
-  - DummyFrameworkFiveDynamic
-  - DummyFrameworkFourDynamic
-  - DummyFrameworkOneDynamic
-  - DummyFrameworkSixDynamic
-  - DummyFrameworkThreeDynamic
-  - DummyFrameworkTwoDynamic
+  - DummyFrameworkFiveStatic
+  - DummyFrameworkFourStatic
+  - DummyFrameworkOneStatic
+  - DummyFrameworkSixStatic
+  - DummyFrameworkThreeStatic
+  - DummyFrameworkTwoStatic
 
 SPEC CHECKSUMS:
-  DummyFrameworkFiveDynamic: 2cfe0932dbf756bde1cdc76fd6e40dadbed373b8
-  DummyFrameworkFourDynamic: 43a9a3fb346bea1f4a055e1005a95a6ee0b654fa
-  DummyFrameworkOneDynamic: 51fb4c981fc18430420458e24861e870b532518b
-  DummyFrameworkSixDynamic: e241d3a774545e39fc3fe4ce2b889c2ee2b32091
-  DummyFrameworkThreeDynamic: e2138cf3f8796ba2e457c7ee188f0f217a5bec44
-  DummyFrameworkTwoDynamic: 97a9ed8df03a5032c485f246f1c7594a9dfa6be7
+  DummyFrameworkFiveStatic: 2f0601957365f5af9f4202094d9e6c44dc6a5335
+  DummyFrameworkFourStatic: de60f8c0b99faa57297074004a2ac3cf6aaec044
+  DummyFrameworkOneStatic: 97e7409d70ee30f3562427248b1d50ca47aee5fc
+  DummyFrameworkSixStatic: 90677ff54602c1c0d2f373f51a166444be3823c3
+  DummyFrameworkThreeStatic: 77c0e9d15ccb2415365a2434cc98d3b30898f613
+  DummyFrameworkTwoStatic: 37685dd9aa033de08c9294e9411588cf22990b90
 
-PODFILE CHECKSUM: f7849c17cd11fadf8c6218e6bf49f33ca796f5d1
+PODFILE CHECKSUM: 0eb974a8ffb86dce3b6787c4b98fff6c07506ca8
 
 COCOAPODS: 1.3.1

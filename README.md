@@ -2,11 +2,11 @@
 
 ### Introduction
 
-As a Private Framework developer I distribute my Frameworks as source and often develop dynamic Frameworks that have dependencies on other dynamic Frameworks, trying to have my code as modularized as possible. This means that each application that consumes the Dynamic Frameworks will notice an increase of the application loading time, since at the end, it will be importing a load of dynamic Frameworks.
+As a Private Framework developer I distribute Frameworks as source and often develop dynamic Frameworks that have dependencies on other dynamic Frameworks, trying to have the code as modularized as possible. This means that each application that consumes the Dynamic Frameworks will notice an increase of the application loading time, since at the end, it will be importing a load of dynamic Frameworks.
 
-After attending [WWDC 2016 Session 406 Optimizing App Startup Time](https://developer.apple.com/videos/play/wwdc2016/406/) I realized there wasn't much to do in terms of improving app loading performance unless I decided to distribute the dynamic Frameworks as source and taking advantage of ignoring the directive __use_frameworks!__(which would compile the frameworks as static libraries), stop modularizing the Dynamic Frameworks and embed all my source in consuming applications, or start distributing them as __static Libraries__.
+After attending [WWDC 2016 Session 406 Optimizing App Startup Time](https://developer.apple.com/videos/play/wwdc2016/406/) I realized there wasn't much to do in terms of improving app loading performance unless I decided to distribute the dynamic Frameworks as source and taking advantage of ignoring the directive __use_frameworks!__(which would compile the frameworks as static libraries), stop modularizing the Dynamic Frameworks and embed all the source in consuming applications, or start distributing them as __static Libraries__.
 
-The best option, in my scenario, was to distribute the binaries as __static Libraries__ since I wanted to keep consumers from accessing the source, but, how could I make sure that my binaries weren't added more than once when using extensions or other targets like widgets?
+The best option, in this scenario, was to distribute the binaries as __static Libraries__ since I wanted to keep consumers from accessing the source. How could I make sure that the binaries weren't added more than once when using extensions or other targets like widgets?
 
 ### Original issue
 
