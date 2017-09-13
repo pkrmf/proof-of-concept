@@ -100,6 +100,23 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/DummyFrameworkFiveDynamic/iOS/DummyFrameworkFive.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkFourDynamic/iOS/DummyFrameworkFour.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkOneDynamic/iOS/DummyFrameworkOne.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkSixDynamic/iOS/DummyFrameworkSix.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS/DummyFrameworkThree.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS/DummyFrameworkTwo.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/DummyFrameworkFiveDynamic/iOS/DummyFrameworkFive.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkFourDynamic/iOS/DummyFrameworkFour.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkOneDynamic/iOS/DummyFrameworkOne.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkSixDynamic/iOS/DummyFrameworkSix.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS/DummyFrameworkThree.framework"
+  install_framework "${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS/DummyFrameworkTwo.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

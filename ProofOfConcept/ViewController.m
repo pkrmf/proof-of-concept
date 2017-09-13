@@ -12,6 +12,7 @@
 @import DummyFrameworkTwo;
 @import DummyFrameworkFour;
 @import DummyFrameworkFive;
+@import DummyFrameworkSix;
 
 @interface ViewController ()
 

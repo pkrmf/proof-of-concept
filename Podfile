@@ -26,9 +26,14 @@ target 'ProofOfConcept' do
   
   # ProofOfConcept is consuming the core manually linking the binary from the project settings
   # Pods for ProofOfConcept
+  target 'ProofOfConceptWidget' do
+      
+  end
 end
 
+
+
 target 'Core' do
-    #dynamics
-    statics
+    dynamics
+    #statics
 end

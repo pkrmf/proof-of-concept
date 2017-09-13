@@ -53,4 +53,12 @@ The more Frameworks we add, the higher the difference will be.
 
 __NOTE:__ It is important to clean the workspace and gather the metrics of launch with a real device on the first launch.
 
+### Application Size
 
+I am surprised, in a good way, about the results of the application size. I was expecting before building this proof of concept with an extension that we would see the same size for the binary with dynamic frameworks and the one with static frameworks.
+
+It was a total surprise to me to see that the application with static libraries is only __722kb__, and the one with dynamic libraries is __1.6MB__.
+
+Not only we got to improve the loading time of the application, we also got to shrink the size of the application by half.
+
+__NOTE:__ You can check the size of the binaries by building it yourself or by checking the binaries inside __/App Executables/__ folder.

@@ -1,0 +1,6 @@
+framework module Pods_ProofOfConcept_ProofOfConceptWidget {
+  umbrella header "Pods-ProofOfConcept-ProofOfConceptWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}
