@@ -586,6 +586,13 @@
 					"\"${PODS_ROOT}/DummyFrameworkSixDynamic/iOS\"",
 					"\"${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS\"",
 					"\"${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/DummyFrameworkFiveStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkFourStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkOneStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkSixStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkThreeStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkTwoStatic/iOS\"",
 				);
 				INFOPLIST_FILE = ProofOfConceptWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -609,6 +616,13 @@
 					"\"${PODS_ROOT}/DummyFrameworkSixDynamic/iOS\"",
 					"\"${PODS_ROOT}/DummyFrameworkThreeDynamic/iOS\"",
 					"\"${PODS_ROOT}/DummyFrameworkTwoDynamic/iOS\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/DummyFrameworkFiveStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkFourStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkOneStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkSixStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkThreeStatic/iOS\"",
+					"\"${PODS_ROOT}/DummyFrameworkTwoStatic/iOS\"",
 				);
 				INFOPLIST_FILE = ProofOfConceptWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";

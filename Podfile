@@ -34,6 +34,6 @@ end
 
 
 target 'Core' do
-    dynamics
-    #statics
+    #dynamics
+    statics
 end
